@@ -5,3 +5,5 @@ backend/node_modules
 backend/.env
 frontend/dist
 .DS_Store
+*.dev.out.log
+*.dev.err.log

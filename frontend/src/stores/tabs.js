@@ -8,7 +8,6 @@ export const useTabsStore = defineStore('tabs', {
     ]
   }),
   actions: {
-    // Vue 3 + Pinia 核心知识点：集中管理 UI 状态（Tab 新增/切换/关闭）
     openTab (tab) {
       if (!this.tabs.some((item) => item.path === tab.path)) {
         this.tabs.push(tab)

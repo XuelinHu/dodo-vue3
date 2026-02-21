@@ -38,7 +38,13 @@ const closeTab = (path) => {
       @click="switchTab(tab.path)"
     >
       <span>{{ tab.title }}</span>
-      <button v-if="tabsStore.tabs.length > 1" class="close" @click.stop="closeTab(tab.path)">×</button>
+      <button
+        v-if="tabsStore.tabs.length > 1"
+        class="close"
+        @click.stop="closeTab(tab.path)"
+      >
+        ×
+      </button>
     </div>
   </div>
 </template>

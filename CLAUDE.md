@@ -1,15 +1,15 @@
 # CLAUDE.md
 
-This file provides guidance for Claude Code when working in this repository.
+本文件为在本仓库中工作的 Claude Code 提供指引。
 
-## Project Overview
-- Minimal Vue 3 project scaffold repository.
-- Keep changes focused and small.
+## 项目概览
+- 最小化的 Vue 3 项目脚手架仓库。
+- 保持改动聚焦且尽量小。
 
-## Development Notes
-- Prefer concise, readable code.
-- Update documentation when adding structure or tooling.
+## 开发说明
+- 优先编写简洁、可读的代码。
+- 添加结构或工具时同步更新文档。
 
-## Git Conventions
-- Use clear commit messages in imperative mood.
-- Avoid committing generated artifacts unless explicitly required.
+## Git 约定
+- 使用清晰、祈使语气的提交信息。
+- 除非明确需要，避免提交生成产物。

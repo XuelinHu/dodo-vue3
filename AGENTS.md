@@ -1,14 +1,14 @@
 # AGENTS.md
 
-Instructions for Codex-style coding agents working in this repository.
+本文件为在本仓库中工作的 Codex 风格编码代理提供指引。
 
-## Scope
-- This file applies to the entire repository.
+## 适用范围
+- 本文件适用于整个仓库。
 
-## Working Rules
-- Keep changes minimal and task-focused.
-- Prefer updating existing files over creating unnecessary new files.
-- Document meaningful repository-level decisions in Markdown.
+## 工作规则
+- 保持改动最小且聚焦于任务。
+- 优先更新现有文件，避免不必要的新建文件。
+- 将有意义的仓库级决策记录在 Markdown 中。
 
-## Validation
-- Run lightweight checks relevant to your change before committing.
+## 校验
+- 提交前运行与本次改动相关的轻量检查。

@@ -14,18 +14,7 @@ body {
   width: 220px;
   background: #0f172a;
   color: #fff;
-  padding: 16px;
-}
-.logo { font-size: 20px; }
-.menu-btn {
-  width: 100%;
-  margin-top: 10px;
-  padding: 10px;
-  border: none;
-  border-radius: 8px;
-  background: #334155;
-  color: #fff;
-  cursor: pointer;
+  padding: 0;
 }
 .content { flex: 1; padding: 16px; }
 .tabs-bar { display: flex; gap: 8px; margin-bottom: 12px; }
@@ -39,6 +28,3 @@ body {
 .close { margin-left: 8px; border: none; background: transparent; cursor: pointer; }
 .view { background: white; border-radius: 8px; padding: 16px; }
 .grid { display: grid; grid-template-columns: repeat(3, minmax(180px, 1fr)); gap: 12px; margin-bottom: 16px; }
-input, textarea, button { padding: 8px; border-radius: 6px; border: 1px solid #cbd5e1; }
-table { width: 100%; border-collapse: collapse; }
-th, td { border-bottom: 1px solid #e2e8f0; padding: 8px; text-align: left; }
